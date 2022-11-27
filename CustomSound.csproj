@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SynapseSL" Version="2.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DissonanceVoip">
+      <HintPath>lib\DissonanceVoip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
